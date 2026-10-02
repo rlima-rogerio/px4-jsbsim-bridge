@@ -41,6 +41,7 @@
 
 #pragma once
 
+#include <string>
 #include "common.h"
 
 #include <FGFDMExec.h>
@@ -50,7 +51,7 @@
 struct ActuatorMap {
   size_t index;
   double scale;
-  string property;
+  std::string property;
 };
 
 class ActuatorPlugin {
